@@ -7,6 +7,7 @@ class VigenereCypher():
     def __init__(self, key):
         self.key = key.upper()
         self.header = deque([chr(unicode) for unicode in range(65, 91)])
+        self.header.append(' ')
 
     def encrypt(self, msg):
         msg = msg.upper()
@@ -54,8 +55,8 @@ class VigenereCypher():
 
 
 if __name__ == '__main__':
-    vegenere_cypher = VigenereCypher(key='fellipe')
-    print('Encripting {}'.format('banana'))
-    print('Encripted message: {}'.format(vegenere_cypher.encrypt('banana')))
-    print('Decripted message: {}'.format(vegenere_cypher.decrypt(''.join(vegenere_cypher.encrypt('banana')))))
+    vegenere_cypher = VigenereCypher(key='ohayou')
+    print('Encripting {}'.format('fellipe premazzi'))
+    print('Encripted message: {}'.format(vegenere_cypher.encrypt('fellipe premazzi')))
+    print('Decripted message: {}'.format(vegenere_cypher.decrypt(''.join(vegenere_cypher.encrypt('fellipe premazzi')))))
     
