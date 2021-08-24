@@ -54,7 +54,8 @@ class VigenereCypher():
 
 
 if __name__ == '__main__':
-    cp = VigenereCypher('ftt')
-    print(cp.encrypt('banana'))
-    print(cp.decrypt('gtgfgt'))
+    vegenere_cypher = VigenereCypher(key='fellipe')
+    print('Encripting {}'.format('banana'))
+    print('Encripted message: {}'.format(vegenere_cypher.encrypt('banana')))
+    print('Decripted message: {}'.format(vegenere_cypher.decrypt(''.join(vegenere_cypher.encrypt('banana')))))
     
