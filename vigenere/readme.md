@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A cifra de vigenere é uma das mais famosas cifras polialfabéticas que temos a disposição. Ela consiste em uma matriz alfabética onde cada uma das linhas dessa matriz é a linha anterior com o um deslocamento n aplicado e asism por diante. No fim da matriz a primeira letra da ultima deve ser a ultima letra da primeira linha. Além disso, é necessário uma chave para encriptografar e decriptografar a frase desejada. Segue abaixo uma matriz de vigenere de 26 letras indo de A até Z.
+A cifra de vigenere é uma das mais famosas cifras polialfabéticas que temos a disposição. Ela consiste em uma matriz alfabética onde cada uma das linhas dessa matriz é a linha anterior com o um deslocamento "n" aplicado e asism por diante. No fim da matriz a primeira letra da ultima deve ser a ultima letra da primeira linha. Além disso, é necessário uma chave para encriptografar e decriptografar a frase desejada. Segue abaixo uma matriz de vigenere de 26 letras indo de A até Z.
 
 ![Matriz de vigenere](matriz.png)
 
