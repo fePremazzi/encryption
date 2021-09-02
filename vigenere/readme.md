@@ -8,8 +8,7 @@ A cifra de vigenere é uma das mais famosas cifras polialfabéticas que temos a 
 
 Essa matriz pode ser composta de qualquer alfabeto desde que seja quadrada, ou seja:
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;n_{colunas} = n_{linhas}" title="matriz" />
-
+n_colunas = n_linhas
 
 A criptografia é feita da seguinte maneira: na coluna e marcado o caractere da frase a ser encriptado e na linha é marcado o caractere da chave e, traçando as linhas de intersecção da linha com a coluna é possível encontrar o caractere cifrado. Veja o exemplo abaixo:
 
