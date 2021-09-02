@@ -55,3 +55,5 @@ Importante comentar que, a matriz nao é montada previamente, ou seja, ela é mo
 ## Explicação em vídeo
 
 O video de demonstracao da cifra de vigenere pode ser encontrada no youtube atraves do link abaixo: 
+
+https://www.youtube.com/watch?v=Iqft3gFhLbc
