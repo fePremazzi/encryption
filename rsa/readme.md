@@ -82,8 +82,23 @@ msg_decifrada = [(uni**D)%N for uni in msg_encriptada]
 print("Mensagem decifrada: ", ''.join([chr(uni) for uni in msg_decifrada]))
 ```
 
+Resultado após uma execução do script:
+```
+p:  83
+q:  17
+N:  1411
+L:  1312
+E:  3
+D:  875
+Chave publica: (3,1411)
+Chave privada: (875,1411)
+Mensagem a ser encriptada:  "The information security is of significant importance to ensure the privacy of communications"
+Mensagem encriptada:  ҷTĩďĻɝƫŴսѶҏŊɝŴƫĻӌďήսɝŊ˴ĻɝӌĻŴĻӌɝɥƫɝɝήҏƫŊĻɝѶϗŴսŊҏƫήďĻŊŴĻďƫӌսďĻŊĩďĻϗսɝɴҏή˴ĻŴĻήŴѶѶƫɝήҏŊɝŴƫӌҷ
+Mensagem decifrada:  "The information security is of significant importance to ensure the privacy of communications"
+```
+
 ## Explicação em vídeo
 
 O video de demonstracao do algoritmo de RSA pode ser encontrado no youtube atraves do link abaixo: 
 
-https://www.youtube.com/
+https://youtu.be/ZaNEbZj6Ukc
